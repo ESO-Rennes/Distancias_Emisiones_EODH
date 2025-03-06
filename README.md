@@ -10,16 +10,16 @@ Los scripts hacen lo siguiente:
 * Producir estadística básica acerca del reparto modal, la distancia de los viajes, la demanda en pasajeros-kilómetros totales (PKT) y las emisiones de GEI.
 * Producir mapas originales de varios indicadores por zona de residencia: distancia por modo per capitá y emisiones de gases de efecto invernadero per capitá.
 
-![Bogota Smoothed map car distance-1.png](https://github.com/ESO-Rennes/Network_Routing_Mapping/blob/main/Bogota%20Smoothed%20map%20car%20distance-1.png)
+![map car-1.png](https://github.com/ESO-Rennes/Distancias_Emisiones_EODH/blob/main/map%20car-1.png)
 
-![Lima Smoothed map car distance-1.png](https://github.com/ESO-Rennes/Network_Routing_Mapping/blob/main/Lima%20Smoothed%20map%20car%20distance-1.png)
+![map ges-1.png](https://github.com/ESO-Rennes/Distancias_Emisiones_EODH/blob/main/map%20ges-1.png)
 
 Abajo encontrará:
 * El script R para [Bogotá](Distancias_EODH_2023_projection_reseau.Rmd) y [Lima](Distancias_ATU_2023_con_caminata_previa.Rmd).
 * El archivo HTML para [Bogotá](https://htmlpreview.github.io/?https://github.com/ESO-Rennes/Distancias_Emisiones_EODH/blob/main/Distancias_EODH_2023_projection_reseau.html) y [Lima](https://htmlpreview.github.io/?https://github.com/ESO-Rennes/Distancias_Emisiones_EODH/blob/main/Distancias_ATU_2023_con_caminata_previa.html).
 
-Palabras clave:
-_movilidad cotidiana; encuesta de movilidad de hogares; script R; cálculo de distancia por la red vial; pasajeros-kilómetro recorridos; emisiones de GEI_
+_Palabras clave:
+movilidad cotidiana; encuesta de movilidad de hogares; script R; cálculo de distancia por la red vial; pasajeros-kilómetro recorridos; emisiones de GEI; emisiones de contaminantes aéreos_
 
 ----- ENGLISH VERSION -----
 
@@ -33,10 +33,13 @@ The scripts do the following:
 * Producing basic statistics about mode share, trip distance, demanda in passengers-kilometers traveled (PKT) and GHG emissions.
 * Showing trip examples and discussing routing issues.
 
-![Bogota Smoothed map car distance-1.png](https://github.com/ESO-Rennes/Network_Routing_Mapping/blob/main/Bogota%20Smoothed%20map%20car%20distance-1.png)
+![map dist car LATS-1.png](https://github.com/ESO-Rennes/Distancias_Emisiones_EODH/blob/main/map%20dist%20car%20LATS-1.png)
 
-![Lima Smoothed map car distance-1.png](https://github.com/ESO-Rennes/Network_Routing_Mapping/blob/main/Lima%20Smoothed%20map%20car%20distance-1.png)
+![map ges LATS-1.png](https://github.com/ESO-Rennes/Distancias_Emisiones_EODH/blob/main/map%20ges%20LATS-1.png)
 
  Please find below:
 * The R script for [Bogotá](Distancias_EODH_2023_projection_reseau.Rmd) and [Lima](Distancias_ATU_2023_con_caminata_previa.Rmd).
 * The HTML rendering for [Bogotá](https://htmlpreview.github.io/?https://github.com/ESO-Rennes/Distancias_Emisiones_EODH/blob/main/Distancias_EODH_2023_projection_reseau.html) and [Lima](https://htmlpreview.github.io/?https://github.com/ESO-Rennes/Distancias_Emisiones_EODH/blob/main/Distancias_ATU_2023_con_caminata_previa.html).
+
+_Keywords: 
+daily mobility; household travel survey; R script; network routing; passengers-kilometers traveled; GHG emissions; air pollution_
